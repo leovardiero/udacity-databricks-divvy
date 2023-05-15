@@ -46,6 +46,10 @@ The firt step is design the Star Schema based on Required Analysis, based on the
 
 The 4 datasets was loaded into Azure Databricks, on landing zone:
 
-[IMAGE DATA ON AZURE]
+![Data on Databricks](./images/data_on_azure.jpg)
 
-Then, the code present on Jupyter Notebook `01. Extract.ipynb` was ran to create the Bronze data store.
+Then, the code present on Jupyter Notebook `./Scripts/01. Extract.ipynb` was ran to create the Bronze data store.
+
+### 3. Import Data into Azure Databricks
+
+The scripts `./Scripts/02. Load.ipynb` and `./Scripts/03. Transform.ipynb` contains the script to create the gold store and transform the bronze data into the Star Schema.
